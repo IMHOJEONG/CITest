@@ -1,0 +1,19 @@
+- Install Nodejs 10.x
+$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+
+- Initialization NPM
+$ npm init
+  ...
+  entry point: server.js
+  test command: jest --forceExit --runInBand --coverage
+  ...
+
+- Install NPM Package
+$ npm install
+
+- Test Sources
+$ npm run test
+
+- Run Apps
+$ node server.app
