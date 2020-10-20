@@ -10,7 +10,7 @@ $ npm init
   ...
 
 - Install NPM Package
-$ npm install
+$ npm install express http-errors jest supertest
 
 - Test Sources
 $ npm run test
