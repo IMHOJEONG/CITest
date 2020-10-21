@@ -24,7 +24,8 @@ jobs:
     - name: Build Nodejs App
       run: npm run build --if-present
 
-    - run: Test Nodejs App
+    - name: Test Nodejs App
+      run: npm test
       env:
         CI: true
 
